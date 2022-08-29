@@ -58,7 +58,9 @@ Gray states are those with no socialist candidates (or there were socialist cand
 
 ### Schema
 
-![Schema diagram showing tables with columns for candidates, states, party affiliations, and election results.](https://jotascript.files.wordpress.com/2018/10/schema_101618.png)
+Schema diagram showing tables with columns for candidates, states, party affiliations, and election results.
+
+<img src="https://jotascript.files.wordpress.com/2018/10/schema_101618.png" width="640">
 
 Like the U.S. Constitution, this schema is a living document and evolves over time.
 
