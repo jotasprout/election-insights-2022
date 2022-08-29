@@ -1,6 +1,24 @@
 # Election Insights
-Most election maps show only red or blue states -- victories gained by one of two candidates. More often than not, however, there are multiple presidential candidates on a ballot. This app answers questions such as, 
-- "What are the results if all votes for left-leaning candidates are compared to all votes for right-leaning candidates?" 
+
+Rebuilding from ground up using what I learned as a Software Engineer candidate at Revature studying to be a .NET Full Stack Developer.
+
+## Status Updates
+
+08-28-2022  Migrated database to new host.
+
+## Original
+
+Forked from:
+
+<https://github.com/roxorsoxor/gov-election-insights>
+
+Interested parties (no pun intended) may want to read the original README.
+
+## Purpose
+
+Most election maps show only red or blue states -- victories gained by one of two candidates. More often than not, however, there are multiple presidential candidates on a ballot. This app answers questions such as,
+
+- "What are the results if all votes for left-leaning candidates are compared to all votes for right-leaning candidates?"
 - "What is the result if votes for all right-leaning candidates are compared to the winning left-leaning candidate?"
 
 For example, if all "Left wing" candidates combined their votes, could they have collectively defeated Trump?
@@ -9,11 +27,12 @@ At present, I'm using only the popular vote for each state. Electoral College da
 
 ## Languages
 
-* Python scripts for downloading data and scraping data sources 
-* MySQL to create new tables
-* D3.js for data viz
+- Python scripts for downloading data and scraping data sources
+- MySQL to create new tables
+- D3.js for data viz
 
 ## Note
+
 - The Electoral College values change in some elections
 - The same candidate in different states may run in a different party
 
@@ -25,7 +44,7 @@ Above includes every candidate -- but, of course, only President Trump and Secre
 
 <img src="https://www.roxorsoxor.com/imgs/snagsforgh/electionsInsights/ppp-allLeftVStrump.png" width="640">
 
-Above shows slightly different results if we combined all the "left" candidates versus President Trump. 
+Above shows slightly different results if we combined all the "left" candidates versus President Trump.
 
 However, if we also combine "right" candidates and have a Left vs Right battle royale:
 
@@ -36,15 +55,18 @@ Below shows results if only socialist candidates [except for Jill Stein (Green P
 <img src="https://jotascript.files.wordpress.com/2018/11/allsocialistsnogreen.png" width="640">
 
 ### Future
+
 - Menu will be dynamic. Only candidates used for map will appear in legend. A candidate may appear in the legend but not in the map because they were a candidate in a state but they did not win.
 - User will be able to click candidate(s) in the legend to add or remove them from map.
 
 ## Schema
+
 ![Schema diagram showing tables with columns for candidates, states, party affiliations, and election results.](https://jotascript.files.wordpress.com/2018/10/schema_101618.png)
 
 Like the U.S. Constitution, this schema is a living document and evolves over time.
 
 ## Note to Self
+
 Check this out
 
-http://election.princeton.edu/for-fellow-geeks/
+<http://election.princeton.edu/for-fellow-geeks/>
